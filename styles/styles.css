@@ -1,0 +1,88 @@
+/*Estilizações globais*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/*Variáveis de cores*/
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100vw; /*View Width*/
+  height: 100vh; /*View Height*/
+  display: flex;
+  background: var(--body-bg-color);
+}
+
+#container{
+  width: 100vw;
+  margin: 0 auto; /*centralizar objeto*/
+}
+
+/*Estilizações de texto*/
+a {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: var(--purple);
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Estilizações de imagem*/
+#pp {
+  padding-top: 50px;  
+  width: 300px;
+  margin: 0 auto;
+}
+
+#pp img {
+  border-radius: 50%;
+  border: 0.25rem solid var(--purple);
+  padding: 1rem;
+  width: 250px;
+  height: 250px;
+}
+
+#pp a {
+  display: block;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*Estilizações dos links*/
+ul {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  width: 80%;
+}
+
+#link-tree li {
+  border: 2px solid var(--purple);
+  border-radius: 7px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin: 6px;
+}
+
+#icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#icons li {
+  display: inline;
+  width: 24px;
+  height: 24px;
+  margin:  10px;
+}
